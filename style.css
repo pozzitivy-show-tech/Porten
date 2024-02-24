@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&family=Stick+No+Bills:wght@700&display=swap');
+@font-face {
+    font-family: 'Righteous';
+    src: url('righteous-regular-webfont.woff2') format('woff2'),
+         url('righteous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: black;
+}
+.header-top{
+    height: 2.29vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-container{
+    display: flex;
+    width: 20.10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-container p{
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.84vw;
+} 
+.info-container img{
+    width: 0.83vw;
+    height: 0.83vw;
+}
+.regin-container{
+    display: flex;
+    width: 6.5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.regin-container p{
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.84vw;
+} 
+.regin-container p a{
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.84vw;
+} 
+.regin-container p a:hover{
+    color: whitesmoke;
+} 
+.regin-container img{
+    width: 0.83vw;
+    height: 0.83vw;
+}
+.header-bottom{
+    background-color: #0f0f0f;
+    display: flex;
+    height: 4.57vw;
+    align-items: center;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    width: 28.65vw;
+}
+nav div{
+    height: 4.57vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word:hover{
+    background: #1f1f1f;
+}
+.word:hover a{
+    color: whitesmoke;
+}
+nav div a{
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.73vw;
+    padding: 0 1.04vw 0 1.04vw;
+}
+.logo a{
+    color: whitesmoke;
+    font-size: 1.88vw;
+}
+nav div a img{
+    width: 1.15vw;
+    height: 1.15vw;
+}
+.top-image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/RandomDude.png);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11vw 0 11vw 0;
+}
+.top-image p{
+    font-family: 'PT Sans', sans-serif;
+}
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    border: solid 0.21vw whitesmoke;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+.logo-box h4{
+    font-size: 4vw;
+}
+.logo-box .sep-line{
+    width: 12vw;
+    height: 0.10vw;
+    background-color: whitesmoke;
+}
+.logo-box p{
+    font-size: 1.5vw;
+}
+.top-image .text{
+    font-size: 1.2vw;
+    width: 38.02vw;
+    text-align: center;
+}
+.New-Collection{
+    height: 38.02vw;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+.season{
+    width: 54.17vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.season h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vw;
+    margin-bottom: 2.604vw;
+}
+.underline{
+    width: 7vw;
+    height: .1vw;
+    background-color: whitesmoke;
+    margin-bottom: 2.604vw;
+}
+.product-cards-container{
+    height: 21.09vw;
+    width: 45.83vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-card{
+    width: 13.54vw;
+}
+.product-image{
+    background-image: url(img/watch.png);
+    background-size: cover;
+    width: 100%;
+    height: 16.93vw;
+}
+.product-card h6{
+    font-size: 1.2vw;
+    font-family: 'Playfair Display', serif;
+}
+.product-card p{
+    font-size: 1vw;
+    font-family: 'Playfair Display', serif;
+}
+.new-collection-link{
+    height: 38.02vw;
+    width: 45.83vw;
+    background-image: url(img/guy_in_chair.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5.21vw;
+}
+.new-collection-link h5{
+    font-family: 'Playfair Display', serif;
+    color: whitesmoke;
+    font-size: 20pt;
+}
+.new-collection-link button{
+    width: 100px;
+    height: 40px;
+    font-size: 11pt;
+    font-family: 'Playfair Display', serif;
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+}
+.new-collection-link button:hover{
+    background-color: rgba(255, 255, 255, .2);
+}
+.underline-catalogue{
+    width: 150px;
+    height: 1px;
+    background-color: whitesmoke;
+    margin: 10px 0 10px 0;
+}
+.old-collection{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+}
+.old-collection-image{
+    height: 31.25vw;
+    width: 45.83vw;
+    background-image: url(img/guy-in-shirt.png);
+    background-size: cover;
+}
+.old-collection-description{
+    width: 54.17vw;
+    height: 31.25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5.208vw 0 5.208vw 0;
+}
+.old-collection-description h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+.old-collection-description p{
+    width: 27rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.underline-twenty-eighteen{
+    width: 150px;
+    height: 1px;
+    background-color: whitesmoke;
+}
+.old-collection-description button{
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.8rem;
+}
+.old-collection-description h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+.new-editions-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    width: 100%;
+}
+.new-editions{
+    width: 52rem;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.underline-new-editions{
+    width: 150px;
+    height: 1px;
+    background-color: whitesmoke;
+}
+.new-edition-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-editions h5{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: whitesmoke;
+}
+.new-edition-card{
+    width: 13.54vw;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+.new-edition-card img{
+    width: 100%;
+    height: 16.93vw;
+}
+.new-edition-card h6{
+    font-size: 1.2vw;
+    font-family: 'Playfair Display', serif;
+}
+.new-edition-card p{
+    font-size: 1vw;
+    font-family: 'Playfair Display', serif;
+}
+.our-brands-wrapper{
+    background-color: #0f0f0f;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+}
+.our-brands{
+    width: 70rem;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.underline-brands{
+    width: 150px;
+    height: 1px;
+    background-color: whitesmoke;
+}
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.our-brands h5{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.footer-links{
+    background-image: url(img/random-shit-for-footer.png);
+    background-size: cover;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+}
+.footer-copyright div p{
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+h6{
+    font-family: 'Righteous', sans-serif;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
