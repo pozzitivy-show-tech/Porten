@@ -344,7 +344,7 @@ nav div a img{
 .brands{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .our-brands h5{
     font-family: 'Playfair Display', serif;
@@ -352,9 +352,93 @@ nav div a img{
     font-size: 2rem;
     color: whitesmoke;
 }
+footer{
+    font-family: 'Playfair Display', serif;
+    color: whitesmoke;
+}
 .footer-links{
     background-image: url(img/random-shit-for-footer.png);
     background-size: cover;
+    display: flex;
+    height: 20rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    width: 23rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about h4{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+.about p{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.875rem;
+}
+.category-links{
+    width: 15rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.category-links h4{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+.category-buttons{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.category-links button{
+    font-size: 0.875rem;
+    background-color: #1B1B1B;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    padding: .5rem;
+    margin: .2rem;
+}
+.newsletter-form{
+    width: 23rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newsletter-form h4{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+.newsletter-form p{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.875rem;
+}
+.newsletter-form form{
+    display: flex;
+}
+.newsletter-form form input{
+    font-size: 0.875rem;
+    font-family: 'Playfair Display', serif;
+    color: #1B1B1B;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, .5);
+}
+.newsletter-form form button{
+    font-size: 0.875rem;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #1B1B1B;
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.8; /* Firefox */
 }
 .footer-copyright{
     display: flex;
