@@ -1,0 +1,21 @@
+@media screen and (min-width:2500px){
+    html{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1030px){
+    html{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:430px){
+    html{
+        font-size: 8px;
+    }
+    .new-edition-products{
+        width: 30rem;
+    }
+    .new-editions-wrapper{
+        height: 95rem;
+    }
+}
