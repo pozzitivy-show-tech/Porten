@@ -339,7 +339,6 @@ nav div a img{
 }
 .brands{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 .brands img{

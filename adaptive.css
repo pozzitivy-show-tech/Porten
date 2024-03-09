@@ -106,6 +106,15 @@
     .brands img{
         width: 12rem;
     }
+    .brands{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .underline-brands{
+        width: 50px;
+    }
 }
 @media screen and (max-width:430px){
     html{
@@ -135,20 +144,72 @@
     .old-collection-description p{
         width: 35rem;
     }
-}
-@media screen and (max-width:460px){
+    .New-Collection{
+        height: 115vw;
+        flex-wrap: wrap-reverse;
 
-    .brands{
-        width: 50%;
+    }
+    .season{
+        width: 100vw;
+        height: 50vw;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
     }
-    .underline-brands{
-        width: 50px;
+    .season h5{
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+    }
+    .new-collection-link{
+        height: 65vw;
+        width: 100vw;
+    }
+    .new-collection-link h5{
+        text-shadow: 1px 1px 2px black;
+    }
+    .product-cards-container{
+        height: 50vw;
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .product-card{
+        width: 20vw;
+        height: 100%;
+    }
+    .product-image{
+        width: 100%;
+        height: 25vw;
+    }
+    .product-card h6{
+        font-size: 1.3rem;
+    }
+    .product-card p{
+        font-size: 1.1rem;
+    }
+    .new-edition-card h6{
+        font-size: 1.3rem;
+    }
+    .new-edition-card p{
+        font-size: 1.1rem;
+    }
+    .our-brands-wrapper{
+        height: 20rem;
+    }
+    .brands{
+        width: 90%;
+    }
+    .brands img{
+        width: 17rem;
+    }
+    .footer-links{
+        padding: 0 1rem 0 1rem;
     }
 }
-
 @media screen and (max-width:320px){
     html{
         font-size: 6px;
