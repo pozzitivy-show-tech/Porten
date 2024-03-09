@@ -267,10 +267,6 @@ nav div a img{
     font-family: 'PT Sans', sans-serif;
     font-size: 0.8rem;
 }
-.old-collection-description h5{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-}
 .new-editions-wrapper{
     display: flex;
     justify-content: center;

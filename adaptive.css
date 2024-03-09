@@ -1,6 +1,33 @@
-@media screen and (min-width:2500px){
+@media screen and (min-width:2000px){
     html{
         font-size: 30px;
+    }
+}
+@media screen and (max-width:2000px){
+    html{
+        font-size: 18px;
+    }
+    .old-collection-description h5{
+        font-size: 2.2rem;
+    }
+    .old-collection-description p{
+        width: 35rem;
+        font-size: 1.1rem;
+    }
+    .old-collection-description button{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:1850px){
+    .old-collection-description h5{
+        font-size: 1.9rem;
+    }
+    .old-collection-description p{
+        width: 35rem;
+        font-size: .9rem;
+    }
+    .old-collection-description button{
+        font-size: .9rem;
     }
 }
 @media screen and (max-width:1030px){
@@ -8,9 +35,123 @@
         font-size: 13px;
     }
 }
+@media screen and (max-width:2100px){
+    .brands img{
+        width: 14rem;
+    }
+}
+@media screen and (max-width:950px){
+    .old-collection{
+        height: 35rem;
+    }
+    .old-collection-image{
+        height: 100%;
+        width: 45.83vw;
+    }
+    .old-collection-description{
+        width: 54.17vw;
+        height: 100%;
+    }
+    .old-collection-description h5{
+        font-size: 1.9rem;
+    }
+    .old-collection-description p{
+        width: 30rem;
+        font-size: 1rem;
+    }
+    .old-collection-description button{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width:750px){
+    html{
+        font-size: 10px;
+    }
+    .new-edition-products{
+        width: 50rem;
+    }
+    .new-editions-wrapper{
+        height: 60rem;
+    }
+}
+@media screen and (max-width:600px){
+    .old-collection{
+        height: 45rem;
+    }
+    .old-collection-image{
+        height: 100%;
+        width: 45.83vw;
+    }
+    .old-collection-description{
+        width: 54.17vw;
+        height: 100%;
+    }
+    .old-collection-description h5{
+        font-size: 1.9rem;
+    }
+    .old-collection-description p{
+        width: 21rem;
+        font-size: 1rem;
+    }
+    .old-collection-description button{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width:550px){
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:460px){
+    .brands img{
+        width: 12rem;
+    }
+}
 @media screen and (max-width:430px){
     html{
         font-size: 8px;
+    }
+    .new-edition-products{
+        width: 30rem;
+    }
+    .new-editions-wrapper{
+        height: 95rem;
+    }
+    .underline-twenty-eighteen{
+        width: 50px;
+    }
+    .old-collection{
+        flex-wrap: wrap-reverse;
+        height: 115vw;
+    }
+    .old-collection-image{
+        height: 50vw;
+        width: 100vw;
+    }
+    .old-collection-description{
+        width: 100vw;
+        height: 65vw;
+    }
+    .old-collection-description p{
+        width: 35rem;
+    }
+}
+@media screen and (max-width:460px){
+
+    .brands{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .underline-brands{
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:320px){
+    html{
+        font-size: 6px;
     }
     .new-edition-products{
         width: 30rem;
