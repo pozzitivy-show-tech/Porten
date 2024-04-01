@@ -1,6 +1,46 @@
-@media screen and (min-width:2000px){
-    html{
-        font-size: 30px;
+
+@media screen and (min-width:2300px){
+    .logo-box{
+        width: 35vw;
+        height: 35vw;
+    }
+    .logo-box h4{
+        font-size: 7vw;
+    }
+    .logo-box .sep-line{
+        width: 20vw;
+        height: 0.10vw;
+        background-color: whitesmoke;
+    }
+    .logo-box p{
+        font-size: 3vw;
+    }
+    .top-image .text{
+        font-size: 1.7vw;
+        width: 42vw;
+        text-align: center;
+    }
+}
+@media screen and (max-width:2300px){
+    .logo-box{
+        width: 40vw;
+        height: 40vw;
+    }
+    .logo-box h4{
+        font-size: 8vw;
+    }
+    .logo-box .sep-line{
+        width: 24vw;
+        height: 0.10vw;
+        background-color: whitesmoke;
+    }
+    .logo-box p{
+        font-size: 3.2vw;
+    }
+    .top-image .text{
+        font-size: 2.3vw;
+        width: 55vw;
+        text-align: center;
     }
 }
 @media screen and (max-width:2000px){
@@ -16,6 +56,26 @@
     }
     .old-collection-description button{
         font-size: 1rem;
+    }
+    .logo-box{
+        width: 45vw;
+        height: 45vw;
+    }
+    .logo-box h4{
+        font-size: 10vw;
+    }
+    .logo-box .sep-line{
+        width: 30vw;
+        height: 0.10vw;
+        background-color: whitesmoke;
+    }
+    .logo-box p{
+        font-size: 3.5vw;
+    }
+    .top-image .text{
+        font-size: 2.7vw;
+        width: 70vw;
+        text-align: center;
     }
 }
 @media screen and (max-width:1850px){
@@ -208,6 +268,36 @@
     }
     .footer-links{
         padding: 0 1rem 0 1rem;
+        flex-wrap: wrap;
+    }
+    .newsletter-form{
+        display: none;
+    }
+    .phone-newsletter{
+        display: flex;
+    }
+    .phone-footer-subscribe{
+        display: flex;
+        z-index: 2;
+        width: 70vw;
+    }
+    .phone-footer-subscribe input{
+        font-size: 0.875rem;
+        width: 50vw;
+        font-family: 'Playfair Display', serif;
+        color: #1B1B1B;
+        padding: 0.5rem;
+        background-color: rgba(255, 255, 255, .5);
+    }
+    .phone-footer-subscribe button{
+        font-size: 0.875rem;
+        width: 20vw;
+        font-family: 'Playfair Display', serif;
+        color: white;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        background-color: #1B1B1B;
+        justify-content: center;
+        text-align: center;
     }
 }
 @media screen and (max-width:320px){
@@ -219,5 +309,71 @@
     }
     .new-editions-wrapper{
         height: 95rem;
+    }
+}
+@media screen and (max-width:1440px){
+    .logo-box{
+        width: 35vw;
+        height: 35vw;
+    }
+    .logo-box h4{
+        font-size: 7.5vw;
+    }
+    .logo-box .sep-line{
+        width: 22vw;
+        height: 0.10vw;
+        background-color: whitesmoke;
+    }
+    .logo-box p{
+        font-size: 3.1vw;
+    }
+    .top-image .text{
+        font-size: 2vw;
+        width: 60vw;
+        text-align: center;
+    }
+}
+@media screen and (max-width:780px){
+    .logo-box{
+        width: 40vw;
+        height: 40vw;
+    }
+    .logo-box h4{
+        font-size: 9vw;
+    }
+    .logo-box .sep-line{
+        width: 27vw;
+        height: 0.10vw;
+        background-color: whitesmoke;
+    }
+    .logo-box p{
+        font-size: 4vw;
+    }
+    .top-image .text{
+        font-size: 2.5vw;
+        width: 70vw;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .logo-box{
+        width: 75vw;
+        height: 75vw;
+    }
+    .logo-box h4{
+        font-size: 15vw;
+    }
+    .logo-box .sep-line{
+        width: 30vw;
+        height: 0.10vw;
+        background-color: whitesmoke;
+    }
+    .logo-box p{
+        font-size: 3.5vw;
+    }
+    .top-image .text{
+        font-size: 5vw;
+        width: 80vw;
+        text-align: center;
     }
 }

@@ -429,26 +429,53 @@ footer{
     font-family: 'Playfair Display', serif;
     font-size: 0.875rem;
 }
-.newsletter-form form{
+.footer-subscribe{
     display: flex;
 }
-.newsletter-form form input{
+.footer-subscribe input{
     font-size: 0.875rem;
     font-family: 'Playfair Display', serif;
     color: #1B1B1B;
     padding: 0.5rem;
     background-color: rgba(255, 255, 255, .5);
 }
-.newsletter-form form button{
+.footer-subscribe button{
     font-size: 0.875rem;
     font-family: 'Playfair Display', serif;
     color: white;
     padding: 0.5rem 1rem 0.5rem 1rem;
     background-color: #1B1B1B;
 }
+.phone-newsletter{
+    font-size: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.phone-newsletter h4{
+    font-family: 'Playfair Display', serif;
+}
+.phone-footer-subscribe{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+}
+.phone-footer-subscribe div button{
+    display: flex;
+    font-size: 0.875rem;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
 ::placeholder {
     color: whitesmoke;
     opacity: 0.8; /* Firefox */
+}
+.phone-footer-subscibe{
+    display: none;
 }
 .footer-copyright{
     display: flex;
