@@ -183,6 +183,44 @@ nav div a img{
     background-size: cover;
     width: 100%;
     height: 16.93vw;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+.product-card:nth-child(2) .product-image{
+    background-image: url(img/bracelet-smaller.png);
+    background-size: 150%;
+    background-position: -45px -75px;
+    width: 100%;
+    height: 16.93vw;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+.product-card:nth-child(3) .product-image{
+    background-image: url(img/belt.png);
+    background-size: 145%;
+    background-position: -45px -75px;
+    width: 100%;
+    height: 16.93vw;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+.add-to-cart {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50%;
+    display: none;
+    transition: .5s;
+
+}
+.add-to-cart img {
+    width: 90%;
+}
+.product-card :hover .add-to-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .product-card h6{
     font-size: 1.2vw;
